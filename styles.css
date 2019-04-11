@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url('https://fonts.googleapis.com/css?family=Abel|Bubbler+One|Inconsolata');
+
+
+
+.one-time{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.navbar-brand{
+  font-family: Open Sans;
+  font-size: 200%;
+  font-style: italic;
+}
+
+body{
+  font-family: Abel;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+#topnav{
+  height:70px;
+}
+#topnav > * {
+  position: relative;
+  top:7px;
+}
+#search{
+  position: relative;
+  left:360px;
+}
+#search_btn{
+  position: relative;
+  left:360px;
+}
+
+#shoppingcart{
+  position: relative;
+}
+.err_class
+{
+  color:red;
+  font-size: 14px;
+}
+.pro_img
+{
+  border: 3px double black;
+}
+.mb_10
+{
+  margin-top: 10px;
+}
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  padding: 30px 10px;
+}
+.card-1 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.foot{text-align: center;margin-top: 45px;}
+.delete_fa{
+    font-size: 20px;
+    color: black;
+}
+#get_product img:hover {
+  transform: scale(1.1);
+}
